@@ -1,0 +1,47 @@
+#head{
+    margin-top: 50px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+}
+#symbol{
+    height: 110%;
+    width: 300px;
+}
+#main{
+    margin-top: 30px;
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid; */
+}
+#text{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+#sub1{
+    height: 80%;
+    width: 48%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    float: left;
+}
+#sub2{
+    height: 80%;
+    width: 46%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    float: right;
+    font-size: 25px;
+}
